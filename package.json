@@ -7,10 +7,11 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "dependencies": {
     "csv-parser": "^3.2.0",
-    "puppeteer": "^24.3.0"
+    "open": "^10.1.0"
   }
 }
